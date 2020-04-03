@@ -1,0 +1,3 @@
+# 904 Research Paper
+
+This project is a research paper for Dr. Powell's PS 904: New Approaches in American Politics. I investigate the recent proliferation of so-called "Second Amendment sanctuaries" in the United States. I create my own dataset and develop a model to test my main hypothesis that conservative counties in states controlled by Democrats are the most likely counties to pass Second Amendment sanctuary resolutions. 
