@@ -1,0 +1,60 @@
+---
+title: An Analysis of Second Amendment Sanctuary Counties in the United States
+author: Kyler Hudson
+date: |
+  `r format(Sys.time(), '%B %d, %Y')`
+abstract: |
+  This paper investigates the recent development of Second Amendment sanctuary counties in the United States. This movement seeks to pass pro-Second Amendment resolutions at the local level, often via the county Board of Commissioners. Using a novel dataset, I first describe the characteristics of Second Amendment sanctuary counties. I then determine whether or not the partisan composition of the state legislature is associated with the likelihood that a county passes a sanctuary resolution. Finally, I assess the extent to which sanctuary resolutions reflect the concept of policy dispersion.
+geometry: margin = 1.15in              # margin widths
+fontsize: 12pt                         # text size            # citation style
+urlcolor: blue                         # links to external URLs
+citecolor: black                       # links to bibliography
+linkcolor: magenta                     # internal figures, footnotes, etc.
+indent: true                           # paragraph format
+                                       # (true for indented paragraphs)
+output: 
+  bookdown::pdf_document2:
+    keep_tex: true
+    latex_engine: pdflatex
+    number_sections: true
+    toc: true
+    fig_caption: true
+    includes: 
+      in_header: 
+        - latex-preamble.tex
+  bookdown::html_document2: default
+  bookdown::word_document2:
+    toc: FALSE
+---
+
+# Introduction
+- Introduction
+
+This project investigates the Second Amendment sanctuary movement. I have created an original dataset of all of the Second Amendment sanctuary counties in the United States. I have merged this dataset with demographic data from the USDA, ideology data from Tausanovitch and Warshaw, and data on the partisan composition of state legislatures from the National Conference of State Legislatures. Using this data, I first compare the demographic differences between sanctuaries and non-sanctuaries. I then create a regression model to determine how a county's ideology and the partisan composition of its state legislature affect the probabiltiy of the county passing a sanctuary resolution. Finally, I assess the policy dispersion aspect of sanctuary resolutions by adding a variable to the model that measures whether or not another county in the state has already passed a sanctuary resolution.
+
+- Definition
+- Importance
+- Hypotheses
+
+# Data 
+- Novel Sanctuary county dataset
+- USDA's "Rural Atlas" county-level demographic data
+- Tausanovitch and Warshaw county-level ideology data
+- National Conference of State Legislature's state government composition data
+
+# Analysis
+## Descriptive Statistics
+- Number and proportion of sanctuaries
+- T-tests of demographic data for sanctuaries and non-sanctuaries
+
+## Logit Model
+- State government composition and ideology predict probability of passing resolution
+
+## Policy Dispersion
+- Add a variable to the model that indicates if a county in your state has already passed a resolution
+
+
+# Discussion
+
+
+
